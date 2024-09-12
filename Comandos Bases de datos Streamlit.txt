@@ -1,0 +1,80 @@
+cmdIngresar a MYSQL con CMD
+
+Primer Abrir CMD
+cd ..
+cd ..
+cd Program Files (Copiamos Prog y pulsamos TAB)
+cd MySQL
+cd MySQL Server 8.0
+cd bin
+mysql -u root -p
+Contraseña: Commandos2002++
+
+"USAMOS EL CÓDIGO HECHO EN VISUAL Y EN EL LOCALHOST O PLATAFORMA PARA COMBINAR LAS BASES DE DATOS"
+
+Código para Nuevo Terminal e iniciar el streamlit
+
+cd C:\Users\valer\Desktop\basesdedatos
+dir
+streamlit run app.py
+cd C:\Users\valer\Desktop
+
+
+MIRAR BASES DE DATOS
+
+Show databases;
+
+Usar una base de datos o entrar a la misma
+
+Use ventas_tigo;
+
+Crear una base de datos
+
+Create database ventas_tigo;
+
+Para ver tablas de la bd
+
+Show tables;
+
+Para ver los datos de una tabla
+
+Select * from nombre_tabla;
+
+
+Crear una BD en PHPMYADMIN
+
+Nueva>
+
+Nombre de BD>
+
+Cotejamiento> utf8mb4_0900_ai_ci
+
+Creamos la BD
+
+Ahora importamos el archivo sql que se hizo como copia desde el MYSQL
+
+Crear copia MYSQL--------
+
+Primero no podemos estar dentro del MySQL.exe donde miramos las bases de datos o tablas o cosas que hay dentro de la mism
+si estamos dentro del mysql> , ejecutamos el comando exit nos lleva a esta ruta C:\Program Files\MySQL\MySQL Server 8.0\bin>
+Aquí utilizamos el comando próximo.
+
+mysqldump -u root -p base_prueba > C:\Users\valer\Desktop\basesdedatos\backup_base_prueba.sql
+
+mysqldump -u root -p app.py > C:\Users\valer\Desktop\basesdedatos\backup_app_py.sql
+
+luego comprobar en el disco C que allá quedado guardada y en el phpmyadmin coger el archivo que se guardo he importarlo
+
+
+
+
+joseucarvajal
+
+----------GITHUB-------------
+
+Si anteriormente estábamos en algún repositorio y queremos agregar otro y subirlo usemos el comando
+
+rm -rf .git
+
+
+
